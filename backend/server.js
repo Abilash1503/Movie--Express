@@ -28,7 +28,7 @@ app.use(passport.session());
 
 
 
-mongoose.connect('mongodb://localhost:27017/TicketBooking', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://abi:abi@ticketbooking.gn1onph.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true});
 mongoose.set("useCreateIndex", true);
 
 
