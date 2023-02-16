@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://movie-express-frontend.onrender.com"
   "private": true,
   "type": "module",
   "dependencies": {
