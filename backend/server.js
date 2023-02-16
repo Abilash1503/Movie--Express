@@ -7,7 +7,6 @@ var router = express.Router();
 var session = require('express-session');
 var passport = require("passport");
 var passportLocalMongoose = require("passport-local-mongoose");
-var print = require("pdf-to-printer");
 var fs = require('fs');
 var app = express();
 
